@@ -7,7 +7,7 @@
 -compile(export_all).
 -include_lib("eunit/include/eunit.hrl").
 
--include("couch_db.hrl").
+-include_lib("couch/include/couch_db.hrl").
 
 do_test(Fun) ->
     Options = [{user_ctx, #user_ctx{roles=[<<"_admin">>]}}],
