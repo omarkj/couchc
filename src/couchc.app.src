@@ -1,0 +1,9 @@
+{application, couchc,
+ [{description, "CouchDB internals API"},
+  {vsn, "0.1"},
+  {modules, [couchc]},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {included_applications, []},
+  {env, []}
+]}.

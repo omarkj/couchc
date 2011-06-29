@@ -5,8 +5,8 @@
 
 -module(couchc).
 
--include("couch_db.hrl").
--include("couchc.hrl").
+-include_lib("couch/include/couch_db.hrl").
+-include_lib("couchc/include/couchc.hrl").
 
 -export([all_dbs/0, all_dbs/1, all_dbs/2,
          create_db/1, create_db/2, 
